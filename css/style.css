@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+}
+h1{
+    position: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 40pt;
+}
+h2{
+    position: center;
+    margin-top: 10px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 20pt;
+}
+p{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #0b3f94;
+    font-size: larger;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    position: absolute;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.contentBox a{
+    color: #0b3f94;
+    font-size: x-large;
+}
+.linkBox a{
+    color: #0b3f94;
+    font-size: x-large;
+}
+.linkBox1 a{
+    color: #0b3f94;
+    font-size: x-large;
+}
+.firstA{
+    right: 450px;
+}
+.secondA{
+    right: 320px;
+}
+.thirdA{
+    right: 170px;
+}
+.fourthA{
+    right: 20px;
+}
+.logoBox{
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    float: left;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.logoBox img{
+    height: 70px;
+    width: 80px;
+}
+footer{
+    height: 200px;
+    font-size: large;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #0b3f94;
+    box-shadow: 0 4px 8px 0 #08264c;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 99; /*can make sure nav remains on top, if using animations*/
+}
+
+.aboutWrapper{
+    background-color: white;
+    height: 1400px;
+    width: 100%;
+    z-index: 1;
+}
+.wrapper{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    z-index: 1;
+}
+.menu {
+    position: fixed;
+    top: -600px;
+}
+.divider{
+    background-color: #0b3f94;
+    width: 100%;
+    height: 5px;
+}
+.contentWrap{
+    width: 100%;
+    height: 300px;
+}
+.contentBox img{
+    height: 200px;
+    width: 270px;
+    padding-left: 100px;
+}
+.aboutWrap{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-bottom: 180px;
+    margin-top: 50px;
+}
+.contentBox{
+    height: 100px;
+    width: 80%;
+    margin: 10px auto auto;
+    z-index: 4;
+}
+.linkBox1{
+    height: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    z-index: 4;
+}
+.linkBox{
+    width: 80%;
+    height: 40px;
+    margin: 10px auto auto;
+    z-index: 4;
+}
+.splash{
+    top: 60px;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+footer{
+    bottom: 0;
+    font-size: large;
+    background-color: #0b3f94;
+    color: white;
+}
+.contactBox{
+    border: medium solid #08264c;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 200px;
+}
+.productWrapper{
+    height: 1500px;
+    width: 100%;
+}
+.productPage1{
+    width: 100%;
+    border: medium solid #0b3f94;
+    height: 600px;
+    z-index: 99;
+    background-color: white;
+    position: absolute;
+    top: 205px;
+    display: none;
+}
+.productPage1 p{
+    font-size: x-large;
+}
+.productPage1 img{
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 500px;
+}
+
+.productPage2{
+    width: 100%;
+    border: medium solid #0b3f94;
+    height: 600px;
+    z-index: 99;
+    background-color: white;
+    position: absolute;
+    top: 205px;
+    display: none;
+}
+.productPage2 p{
+    font-size: x-large;
+}
+.productPage2 img{
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 500px;
+}
+.productPage3{
+    width: 100%;
+    border: medium solid #0b3f94;
+    height: 600px;
+    z-index: 99;
+    background-color: white;
+    position: absolute;
+    top: 205px;
+    display: none;
+}
+.productPage3 p{
+    font-size: x-large;
+}
+.productPage3 img{
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 500px;
+}
+.productPage4{
+    width: 100%;
+    border: medium solid #0b3f94;
+    height: 600px;
+    z-index: 99;
+    background-color: white;
+    position: absolute;
+    top: 205px;
+    display: none;
+}
+.productPage4 p{
+    font-size: x-large;
+}
+.productPage4 img{
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 500px;
+}
+
+.productBox1{
+    border: medium solid #0b3f94;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.productBox2{
+    border: medium solid #0b3f94;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.productBox3{
+    border: medium solid #0b3f94;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.productBox4{
+    border: medium solid #0b3f94;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.productWrap img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 80%;
+}
+.productBox p{
+    font-size: larger;
+    font-family: Arial;
+}
+.price{
+    font-size: larger;
+    font-family: Arial;
+    text-align: right;
+    margin-top: -25px;
+}
+.productWrap{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 600px;
+}
+.smallTextBox{
+    height: 5px;
+}
+.contacts{
+    display: flex;
+}
+@media only screen and (max-width: 1050px){
+    .contentWrap{
+        height: 500px;
+    }
+    .contentBox{
+        height: 200px;
+    }
+    .wrapper{
+        height: 800px;
+    }
+    .contactBox{
+        margin-left: 50px;
+        width: 40%;
+    }
+    .aboutWrap {
+        display: block;
+        height: 1200px;
+    }
+    .aboutWrapper{
+        height: 3000px;
+    }
+    .contentBox img{
+        height: 300px;
+        margin: 20px;
+    }
+    .contentBox p{
+        font-size: larger;
+        margin-top: 300px;
+    }
+
+}
+@media only screen and (max-width: 650px){
+    .contentWrap{
+        height: 800px;
+    }
+    .contentBox{
+        height: 300px;
+    }
+    .wrapper{
+        height: 900px;
+    }
+    .contactBox{
+        margin-left: 5px;
+        width:47%;
+    }
+    .contactBox p{
+        font-size: medium;
+    }
+
+    .menuIcon{
+        height: 100%;
+        width: 60px;
+        background-color: white;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        z-index: 98;
+    }
+    .bar{
+        height: 6px;
+        width: 80%;
+        background-color: #0b3f94;
+    }
+    .menu a{
+        color: black;
+        text-decoration: none;
+        font-size: xx-large;
+        margin-right: 15px;
+        margin-left: 15px;
+        position: relative;
+    }
+    .menu{
+        position: fixed;
+        top: -600px;
+        right: 0;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height: 150px;
+        background-color: #0b3f94;
+        z-index: 98;
+        transition: .25s;
+        box-shadow: 0 4px 8px 0 grey;
+    }
+    .menu a{
+        color: white;
+    }
+
+    nav a{
+        position: absolute;
+        top: -600px;
+    }
+    .productWrap{
+        display: initial;
+    }
+    .productWrapper{
+        height: 2500px;
+    }
+    .productBox1{
+        width: 80%;
+    }
+    .productBox2{
+        width: 80%;
+    }
+    .productBox3{
+        width: 80%;
+    }
+    .productBox4{
+        width: 80%;
+    }
+}
